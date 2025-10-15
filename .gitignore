@@ -1,0 +1,53 @@
+# ==================== #
+# DEPENDENCIES         #
+# ==================== #
+node_modules/          # ← Node.js dependencies - NEVER COMMIT THIS!
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ==================== #
+# ENVIRONMENT          #
+# ==================== #
+.env                   # Environment variables with secrets
+.env.local
+.env.production
+
+# ==================== #
+# LOGS                 #
+# ==================== #
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ==================== #
+# DATABASE             #
+# ==================== #
+/data/
+/db/
+/mongo-data/
+*.db
+
+# ==================== #
+# OPERATING SYSTEM     #
+# ==================== #
+.DS_Store              # Mac
+Thumbs.db              # Windows
+Desktop.ini            # Windows
+
+# ==================== #
+# EDITORS/IDEs         #
+# ==================== #
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==================== #
+# RUNTIME/TEMP         #
+# ==================== #
+tmp/
+temp/
+*.tmp
